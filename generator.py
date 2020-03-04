@@ -28,7 +28,7 @@ def parse_args():
     parser.add_argument("--badge-width", "-w", type=int, default=90)
     parser.add_argument("--badge-height", "-h", type=int, default=55)
     parser.add_argument("--logo")
-    parser.add_argument("--output-dir", "-o", default="badges_out")
+    parser.add_argument("--output-dir", "-o", default="out")
     return parser.parse_args()
 
 
